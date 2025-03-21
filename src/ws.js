@@ -43,7 +43,7 @@ export const setupWebSocket = (server) => {
           })
         );
 
-        console.log("Mudança detectada:", cardsWithAddresses);
+        console.log("Mudança detectada");
 
         // Enviar somente se houver clientes conectados
         if (clients.size > 0) {
